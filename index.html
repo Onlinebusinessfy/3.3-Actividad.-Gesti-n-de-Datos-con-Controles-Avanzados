@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+</head>
+<body class="container">
+    <header>
+        <h1>3.3 Actividad. Gestión de Datos con Controles Avanzados</h1>
+        <h2>Samuel Dominguez Lopez</h2>
+    </header>
+    <form action="" id="FormularioProductos">
+        <label for="nonbre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="nombre" class="form-control">
+        <label for="precio">Precio:</label>
+        <input type="text" name="precio" id="precio" placeholder="precio" class="form-control">
+        <label for="cantidad">Cantidad:</label>
+        <input type="text" name="cantidad" id="cantidad" placeholder="cantidad" class="form-control">
+        <button type="submit" class="btn btn-primary">Agregar producto a la tabla</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NOMBRE</th>
+                <th>PRECIO</th>
+                <th>CANTIDAD</th>
+            </tr>
+        </thead>
+        <tbody id="productos">
+            <!-- Javascript -->
+        </tbody>
+    </table>
+
+    <script src="./script.js"></script>
+</body>
+</html>
